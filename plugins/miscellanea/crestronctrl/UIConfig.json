@@ -1,0 +1,50 @@
+{
+  "page": {
+    "label": "TRANSLATE.PLUGIN_CONFIGURATION"
+  },
+  "sections": [
+    {
+      "id": "section_connection",
+      "element": "section",
+      "label": "TRANSLATE.CONNECTION_CONFIGURATION",
+      "icon": "fa-plug",
+      "onSave": {
+        "type": "controller",
+        "endpoint": "miscellanea/crestronctrl",
+        "method": "saveConfig"
+      },
+      "saveButton": {
+        "label": "TRANSLATE.SAVE",
+        "data": [
+          "crestron_ip",
+          "port",
+          "powerid"
+        ]
+      },
+      "content": [
+        {
+          "id": "crestron_ip",
+          "type": "text",
+          "element": "input",
+          "label": "TRANSLATE.CRESTRON_IP",
+          "doc": "TRANSLATE.CRESTRON_IP_DOC"
+        },
+        {
+          "id": "port",
+          "type": "text",
+          "element": "input",
+          "label": "TRANSLATE.PORT",
+          "doc": "TRANSLATE.PORT_DOC",
+          "value": "50001"
+        },
+        {
+          "id": "powerid",
+          "type": "text",
+          "element": "input",
+          "label": "TRANSLATE.POWER_ID",
+          "doc": "TRANSLATE.POWER_ID_DOC"
+        }
+      ]
+    }
+  ]
+}

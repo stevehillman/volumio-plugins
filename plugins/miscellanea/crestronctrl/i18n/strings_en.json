@@ -1,0 +1,12 @@
+{
+  "PLUGIN_CONFIGURATION":"Crestron Plugin Configuration",
+  "CRESTRON_IP": "Crestron IP/Hostname",
+  "CRESTRON_IP_DOC": "The IP or hostname of the Crestron Controller.",
+  "PORT": "Port",
+  "PORT_DOC": "The Port the Crestron TCPDaemon is listening on.",
+  "POWER_ID": "Power-On Out Number",
+  "POWER_ID_DOC": "The Digital Out number of the output that powers on the Crestron. Refer to your Crestron SIMPL diagram",
+  "POWERED_ON": "Crestron Powered On",
+  "SAVE":"Save",
+  "SETTINGS_SAVED_CONNECTION": "Connection settings have been saved."
+}

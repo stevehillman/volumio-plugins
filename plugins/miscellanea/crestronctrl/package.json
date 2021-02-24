@@ -1,0 +1,23 @@
+{
+	"name": "crestronctrl",
+	"version": "1.0.0",
+	"description": "Manage Crestron audio via custom TCP daemon on Crestron controller",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Steve Hillman",
+	"license": "ISC",
+	"volumio_info": {
+		"prettyName": "crestronctrl",
+		"icon": "fa-lightbulb-o",
+		"plugin_type": "miscellanea"
+	},
+	"dependencies": {
+		"fs-extra": "^0.28.0",
+		"kew": "^0.7.0",
+		"net": "^1.0.2",
+		"socket.io-client": "^1.7.4",
+		"v-conf": "^1.4.0"
+	}
+}

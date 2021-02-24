@@ -1,0 +1,14 @@
+{
+    "crestron_ip": {
+        "type": "string",
+        "value": "10.0.9.100"
+    },
+    "port": {
+        "type": "string",
+        "value": "50001"
+    },
+    "powerid": {
+        "type": "string",
+        "value": "1"
+    }
+}
